@@ -1,0 +1,8 @@
+# 可视化
+## 模型
+从最简单的模型入手 -- 简单线性回归  
+$ y = b + wx + \epsilon $  
+在这模型里，我们用feature(x)来predict label(y). b参数为bias(intercept), w参数为weight(slope), $\epsilon$为noise(error)  
+我们可以很快构造出这样的一个模型结构，比如  
+    工资 = 底薪 + 年增长 * 工作年限 + noise  
+## 数据生成
